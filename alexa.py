@@ -1,9 +1,9 @@
 import speech_recognition as sr
-import pyttsx3
-import pywhatkit
-import datetime
-import wikipedia
-import pyjokes
+import pyttsx3          #to convert text to speech
+import pywhatkit        #to open youtube songs
+import datetime         #to tell current timing
+import wikipedia        #for wiki to direct search of any people
+import pyjokes          #for jokes section
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
