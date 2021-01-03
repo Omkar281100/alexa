@@ -43,11 +43,15 @@ def run_alexa():
         print(time)
         talk('Current time is '+ time)
 
+
+
     elif 'who is' in command:
         person = command.replace('who is','')
         info = wikipedia.summary(person , 5)
         print(info)
         talk(info)
+
+
 
     elif 'date' in command:
         talk('ok i would love to go with you baby')
@@ -55,6 +59,7 @@ def run_alexa():
         talk('I am in a relationship with google')
     elif'joke' in command:
         talk(pyjokes.get_joke())
+
 
 
 
